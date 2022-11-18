@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signup.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script id="replace_with_navbar" src="nav.js"></script>
+    <div class="container">
+      <div class="purbg">
+        <img src="pur.jpg" alt="purple" />
+        <span class="head">Create<br />Your<br />Account</span>
+        <span class="tail"
+          >Already a member?<br />
+          <a href="forms.html">Sign in</a>
+        </span>
+      </div>
+      <form action="/action_page.php">
+        <h3 id="signup">Sign Up</h3>
+        <p>User Name</p>
+        <input
+          class="input"
+          type="text"
+          name="username"
+          placeholder="Enter your Username"
+        />
+        <p>Email</p>
+        <input
+          class="input"
+          type="email"
+          name="email"
+          placeholder="abcd123@email.com "
+        />
+        <p>Date Of Birth</p>
+        <input class="input" type="date" name="date" />
+        <p>Password</p>
+        <input class="input" type="password" name="password" />
+        <input class="button" type="submit" name="Submit" />
+        <!-- <div><a href="#" class="button">Submit</a></div> -->
+      </form>
+    </div>
+  </body>
+</html>

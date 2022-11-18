@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+body {
+  background-color: rgb(24, 26, 27);
+}
+.container {
+  margin: auto;
+  /* display: block; */
+  /* text-align: center; */
+  /* border: 2px solid rgb(255, 255, 255); */
+  width: 22rem;
+  margin-top: 40px;
+  box-sizing: border-box;
+  position: relative;
+  top: 45px;
+  left: 145px;
+  height: 28.5rem;
+  /* border-radius: 50px;
+  background: #181a1b;
+  box-shadow: inset 22px 22px 32px #121414, inset -22px -22px 32px #1e2122; */
+  border-radius: 24px;
+  background: linear-gradient(145deg, #1a1c1d, #000000);
+  box-shadow: 22px 22px 32px #0d0f0f;
+}
+.purbg img {
+  width: 18.5rem;
+  height: 27.5rem;
+  border-radius: 24px;
+  filter: blur(8px);
+  -webkit-filter: blur(4px);
+}
+.purbg {
+  position: absolute;
+  right: 22.4rem;
+  top: 21px;
+}
+.purbg .head {
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  line-height: 38px;
+}
+.purbg .tail {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.tail a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 705px) {
+  .purbg {
+    display: none;
+  }
+  .container {
+    left: 0px;
+  }
+}
+
+#signup {
+  /* border: 2px solid red; */
+  padding-top: 16px;
+  color: wheat;
+  position: relative;
+  font-family: "Sora", sans-serif;
+  font-size: 27px;
+  text-align: center;
+}
+.container p {
+  color: rgb(255, 255, 255);
+  /* margin-left: 1.5vw; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-left: 29px;
+}
+.container .input {
+  border: none;
+  border-bottom: 2px solid rgb(126, 125, 124);
+  background-color: rgb(24, 26, 27);
+  width: 17rem;
+  color: rgb(131, 127, 127);
+  background: none;
+  font-size: 15px;
+  margin-left: 28px;
+  font-family: monospace;
+}
+
+.button {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  border: none;
+  background-color: rgb(75, 44, 44);
+  color: tomato;
+  border-radius: 15px;
+  padding: 10px 25px;
+  position: relative;
+  top: 18px;
+  left: 28.8%;
+}
+.button:hover {
+  background-color: rgb(47, 75, 44);
+  color: rgb(71, 255, 95);
+}
+::-ms-reveal {
+  filter: invert(100%);
+}
